@@ -79,38 +79,21 @@ hr {
 .sub-articles .sub-article {
     height: 33%;
     width: 100%;
-    position: relative;
-    overflow: hidden;
-
+    display: table;
+    padding: 5px;
 }
 
 .sub-articles .sub-article .image {
-    flex-shrink: 0;
-    height: 12vw;
-    width: 12vw;
-    margin-right: 5px;
-    float: left;
+    display: table-cell;
+    height: 100%;
+    width: calc(70vh/3);
     background-color: grey;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
 }
 .sub-articles .sub-article p {
-    float: left;
-    width: 36vw;
-    left: 15vw;
-    position: absolute;
-    margin: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    padding: 5px;
+    display: table-cell;
+    vertical-align: middle;
 }
-
-.sub-articles .sub-article .text  {
-    width: 25vw;
-    position: relative;
-    height: 100%;
-}
-
 
 .sub-articles-footer {
     width: 25%;
