@@ -19,6 +19,15 @@ header {
     text-align: center;
 }
 
+@media (max-width: 400px) {
+    .medium-box {
+        display: none;
+    }
+    .title {
+        width: 100%;
+    }
+}
+
 .nav-item {
     height: 35px;
     background-color: grey;
@@ -51,6 +60,12 @@ header {
     padding-bottom: 15px;
     padding-right: 15px;
     overflow: hidden;
+}
+
+@media (max-width: 400px) {
+    .main-article, .sub-articles {
+        width: 100%;
+    }
 }
 
 .cover-image {
@@ -103,6 +118,12 @@ hr {
     box-sizing: border-box;
 }
 
+@media (max-width: 400px) {
+    .sub-articles-footer {
+        width: 100%;
+        overflow: hidden;
+    }
+}
 .sub-articles-footer .image {
     width: 100%;
     height: 80%;
