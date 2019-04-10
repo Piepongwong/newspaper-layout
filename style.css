@@ -1,0 +1,108 @@
+.medium-box {
+    width: 25%;
+    height: 25vh;
+    background-color: grey;
+    box-sizing: border-box;
+    float: left;
+}
+
+header {
+    width: 100%;
+    height: 25vh;
+}
+
+.title {
+    width: 50%;
+    height: 25vh;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+
+.nav-item {
+    height: 35px;
+    background-color: grey;
+    width: 15%;
+    float: left;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+/* nav::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+/* main {
+    clear: both;
+} */
+
+.clear-fix {
+    clear: both;
+}
+
+.main-article, .sub-articles {
+    width: 50%;
+    height: 70vh;
+    box-sizing: border-box;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.cover-image {
+    background-color: grey;
+    width: 100%;
+    height: 60%;
+}
+hr {
+    color: blue;
+    border: 2px solid blue;
+}
+.main-article-text .main-title, .main-article-text p {
+    width: 60%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-article-text .main-title {
+    background-color: grey;
+    border-radius: 30px;
+    height: 60px;
+    margin-top: 25px; 
+}
+
+.sub-articles .sub-article {
+    height: 33%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.sub-articles .sub-article{
+    /* padding: 5px; */
+}
+
+.sub-articles .sub-article .image {
+    flex-shrink: 0;
+    height: 12vw;
+    width: 12vw;
+    margin-right: 5px;
+    background-color: grey;
+}
+
+.sub-articles-footer {
+    width: 25%;
+    height: 33vh;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.sub-articles-footer .image {
+    width: 100%;
+    height: 80%;
+    background-color: grey;
+}
