@@ -23,4 +23,5 @@ commit b412f1da3ec4a89f6a20b7ca8d8d96b581ac8750
 Author: Piepongwong <j.tonneyck@gmail.com>
 Date:   Wed Apr 10 12:42:24 2019 +0200
 ```
+
 Finally, checkout to the commit you want to go back to. In case you want to go back to 'with absolute' execute `git checkout fb99ebc8d530593e18009e8d1937463fed28f9f3`. If you want to go back to the start run `git checkout master`.
